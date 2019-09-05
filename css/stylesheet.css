@@ -80,8 +80,12 @@ nav.main-nav a.mainbtn {
   font-style: normal;
 }
 
-.highlight {
+#highlight-company {
   color: #5694f1;
+}
+
+#highlight-university {
+  color: #e650cf;
 }
 
 .main-content {
