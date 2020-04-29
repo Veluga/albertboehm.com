@@ -29,15 +29,15 @@ projects.forEach(proj => {
     description.innerHTML = proj["description"]
     link.href = proj["src"]
     link.innerHTML = proj["title"]
-    languages.innerHTML = "<b>Languages</b>: " + proj["languages"]
-    tools.innerHTML = "<b>Tools</b>: " + proj["tools"]
+    languages.innerHTML = "<b>Language" + (proj["languages"].length > 1 ? "s" : "") + "</b>: " + proj["languages"].join(", ")
+    tools.innerHTML = "<b>Tool" + (proj["tools"].length > 1 ? "s" : "") + "</b>: " + proj["tools"].join(", ")
     title.appendChild(link)
     textContainer.appendChild(title)
     textContainer.appendChild(description)
-    if (proj["languages"]) {
+    if (proj["languages"].length > 0) {
         textContainer.appendChild(languages)
     }
-    if (proj["tools"]) {
+    if (proj["tools"].length > 0) {
         textContainer.appendChild(tools)
     }
 
