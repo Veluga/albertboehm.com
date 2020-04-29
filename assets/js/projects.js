@@ -32,4 +32,12 @@ projects = [{
     "description": "Implementation of the CHIP-8 VM. Plays Pong, Invaders, Tetris, and many more.",
     "src": "https://github.com/Veluga/chip8-emu",
     "thumbnail": "assets/img/project_thumbnails/chip8_emu.png"
+}, {
+    "title": "Thalia Backtesting Tool",
+    "languages": "Python, JavaScript",
+    "tools": "Flask, git, pytest, pandas, Dash Plotly, SQLite, CircleCI",
+    "description": "Created a web application to calculate historical performance \
+    and associated risk metrics of an investing strategy within a team of seven people.",
+    "src": "http://thaliabacktest.xyz/",
+    "thumbnail": "assets/img/project_thumbnails/thalia.jpg"
 }]
