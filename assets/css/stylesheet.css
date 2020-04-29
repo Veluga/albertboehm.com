@@ -189,13 +189,10 @@ p.copyright {
   text-decoration: none;
 }
 
-/* @media only screen and (max-width: 640px) {} */
-
-@media (max-width: 414px) {
+/* Tablet Portrait */
+@media (max-width: 834px) {
   .main-content {
     max-width: 334px;
-    margin: 0 auto;
-    padding: 0 40px 20px;
   }
 
   .left-div {
@@ -218,6 +215,60 @@ p.copyright {
   /* Projects page */
 
   .project-item .img-div {
+    width: 100%;
+  }
+
+  .project-item .text-div {
+    max-width: 100%;
+  }
+
+  .project-item .img-div img {
+    margin: auto;
+    display: block;
+  }
+
+  .project-item .text-div h3,
+  .project-item .text-div p {
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .project-item {
+    margin-top: 20px;
+  }
+}
+
+/* Mobile Portrait */
+@media (max-width: 414px) {
+  .main-content {
+    max-width: 334px;
+  }
+
+  .left-div {
+    width: 100%;
+  }
+
+  .left-div img {
+    margin: auto;
+    display: block;
+    max-width: 72px;
+  }
+
+  .right-div-content h3,
+  .right-div-content p {
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+  }
+
+  /* Projects page */
+
+  .project-item .img-div {
+    width: 100%;
+  }
+
+  .project-item .text-div {
     width: 100%;
   }
 
