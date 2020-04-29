@@ -7,8 +7,17 @@ projects.forEach(proj => {
     let imgContainer = document.createElement("div")
     let img = document.createElement("img")
     imgContainer.setAttribute("class", "img-div")
-    img.src = proj["thumbnail"]
+    img.src = proj["thumbnail_1"]
+    img.classList.add("bottom")
+
+
     imgContainer.appendChild(img)
+    if (proj["thumbnail_2"]) {
+        let img2 = document.createElement("img")
+        img2.src = proj["thumbnail_2"]
+        img2.classList.add("top")
+        imgContainer.appendChild(img2)
+    }
 
     let textContainer = document.createElement("div")
     let title = document.createElement("h3")

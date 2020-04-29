@@ -157,11 +157,44 @@ p.copyright {
   width: 150px;
   padding-right: 48px;
   margin-top: 20px;
+  position: relative;
 }
 
 .project-item .img-div img {
   max-width: 200px;
   border-radius: 5%;
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  55% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.project-item .img-div img.top {
+  animation-name: fadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
 }
 
 .project-item .text-div {
@@ -223,9 +256,15 @@ p.copyright {
   }
 
   .project-item .img-div img {
+    position: relative;
     margin: auto;
     display: block;
   }
+
+  .project-item .img-div img.top {
+    display: none;
+  }
+
 
   .project-item .text-div h3,
   .project-item .text-div p {
