@@ -21,7 +21,7 @@ projects = [{
     "tools": ["Flask", "git", "pytest", "pandas", "Dash Plotly", "SQLite", "CircleCI"],
     "description": "Created a web application to calculate historical performance \
     and associated risk metrics of an investing strategy within a team of seven people.",
-    "src": "http://thaliabacktest.xyz/",
+    "src": "https://github.com/Veluga/Thalia-Backtesting-Tool",
     "thumbnail_1": "assets/img/project_thumbnails/thalia_performance.png",
     "thumbnail_2": "assets/img/project_thumbnails/thalia_returns.png"
 }]
