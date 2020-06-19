@@ -24,7 +24,7 @@ nav.main-nav a {
   right: 6px;
   padding: 8px 12px;
   color: #5badf0;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.35;
   border-radius: 3px;
 }
@@ -87,6 +87,10 @@ nav.main-nav a.mainbtn {
 
 #highlight-university {
   color: #e650cf;
+}
+
+#header img {
+  width: 36px;
 }
 
 .main-content {
