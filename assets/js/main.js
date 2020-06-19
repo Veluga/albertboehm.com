@@ -43,5 +43,5 @@ projects.forEach(proj => {
 
     outer.appendChild(imgContainer)
     outer.appendChild(textContainer)
-    listNode.appendChild(outer)
+    listNode.prepend(outer)
 })
