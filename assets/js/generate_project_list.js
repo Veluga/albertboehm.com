@@ -1,3 +1,8 @@
+/* 
+Every time I have to look at this abomination I have to laugh a little bit.
+But mostly I cry a lot.
+*/
+
 let listNode = document.getElementById("project-list")
 
 projects.forEach(proj => {
