@@ -64,5 +64,15 @@ projects = [{
         "src": "https://github.com/Veluga/Thalia-Backtesting-Tool",
         "thumbnail_1": "assets/img/project_thumbnails/thalia_performance.png",
         "thumbnail_2": "assets/img/project_thumbnails/thalia_returns.png"
+    },
+    {
+        "title": "Sniffy Robotic Vacuum Cleaner",
+        "languages": ["Python, C++"],
+        "tools": ["ROS"],
+        "description": "Sniffy is able to automatically vacuum a building, visiting \
+        its rooms in optimal order and charging itself when necessary.",
+        "src": "https://www.youtube.com/watch?v=wzvOhYcSsGk",
+        "thumbnail_1": "assets/img/project_thumbnails/sniffy_driving.gif",
+        "thumbnail_2": "assets/img/project_thumbnails/sniffy_vacuuming.gif"
     }
 ]
