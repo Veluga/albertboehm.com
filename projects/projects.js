@@ -74,5 +74,15 @@ projects = [{
         "src": "https://www.youtube.com/watch?v=wzvOhYcSsGk",
         "thumbnail_1": "assets/img/project_thumbnails/sniffy_driving.gif",
         "thumbnail_2": "assets/img/project_thumbnails/sniffy_vacuuming.gif"
+    },
+    {
+        "title": "Elevator Scheduling Simulation",
+        "languages": ["Python"],
+        "tools": ["Tensorforce", "tf-agents"],
+        "description": "An elevator scheduling simulation environment to be used for \
+        the development of reinforcement learning algorithms in Python.",
+        "src": "https://github.com/Veluga/elevator-scheduling/",
+        "thumbnail_1": "assets/img/project_thumbnails/rl_state_action_loop.png",
+        "thumbnail_2": "assets/img/project_thumbnails/elevator_schematic.png"
     }
 ]
